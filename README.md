@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/MEME-Phoenix/MEME.svg)](http://hits.dwyl.com/MEME-Phoenix/MEME)
+
 <h1 align="center">
   <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="./logo.png" alt="Markdownify" width="400"></a>
@@ -7,8 +9,7 @@
 </h1>
 
 <h4 align="center">당신의 쇼핑 생활을 upgrade해 줄 <a href="https://www.notion.so/Autonomous-Driving-Trolley-MEME-01fdd602990b4baa9b603d419a1479bb" target="_blank">MEME</a>.</h4>
-<p align="center">[![HitCount](http://hits.dwyl.com/MEME-Phoenix/MEME.svg)](http://hits.dwyl.com/MEME-Phoenix/MEME)
-</p>
+
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
