@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="./logo.png" alt="Markdownify" width="200"></a>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="./logo.png" alt="Markdownify" width="400"></a>
   <br>
   Autonomous Driving Trolley, MEME
   <br>
 </h1>
 
-<h4 align="center">당신의 쇼핑 생활을 upgrade해 줄<a href="https://www.notion.so/Autonomous-Driving-Trolley-MEME-01fdd602990b4baa9b603d419a1479bb" target="_blank">MEME</a>.</h4>
+<h4 align="center">당신의 쇼핑 생활을 upgrade해 줄 <a href="https://www.notion.so/Autonomous-Driving-Trolley-MEME-01fdd602990b4baa9b603d419a1479bb" target="_blank">MEME</a>.</h4>
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
