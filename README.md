@@ -13,22 +13,27 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
+  <a href="#blogs">Contributors & Blogs</a> •
   <a href="#references">References</a> •
-  <a href="#blogs">Blogs</a> •
   <a href="#license">License</a> •
   <a href="https://bit.ly/3lN3iEF">Notion</a> •
   <a href="https://github.com/MEME-Phoenix">GitHub</a>
 </p>
 
-## Key Features & File Description
-- Object Detection with YOLOv5
-- Object Tracking with DeepSORT
-- Keyword Spotting: RNN model on word "미미야"
-- Realtime Location Track with LiDAR Sensor
-- Emergency Detection with ultrasonic Sensor
+## Key Features
+1. Object Tracking System with YOLOv5 & DeepSORT
+2. Keyword Spotting: RNN model on word "미미야"
+3. Realtime Location Track with LiDAR Sensor
+4. Emergency Detection with ultrasonic Sensor
+5. Embedding System
 
 ## How To Use
+### 1. Object Tracking System with YOLOv5 & DeepSORT
+- Requirements
+Python 3.8 or later with all requirements.txt dependencies installed, including torch>=1.7. To install run:
+`pip install -U -r requirements.txt`  
 
+- How to Use
 To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
 ```bash
@@ -38,11 +43,9 @@ $ git clone https://github.com/MEME-Phoenix/MEME.git
 # Just run the file
 $ python3 track.py
 ```
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.  
 
-
-## References
-1. [Object Tracking](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
+### 2. Keyword Spotting: RNN model on word "미미야"
 
 
 ## Contributors & Blogs
@@ -63,6 +66,16 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
     * [[IT/KR] Object Detection - EfficientDet](https://blog.naver.com/cwkim0314/222156584109)
     * [[IT/KR/Project] Hardware: Alphabot2-pi](https://blog.naver.com/cwkim0314/222167401417)
   - 그로쓰 학기
+
+## References
+1. Object Tracking
+  - Object Tracking(https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
+  - Simple Online and Realtime Tracking with a Deep Association Metric(https://arxiv.org/abs/1703.07402)
+  - YOLOv4: Optimal Speed and Accuracy of Object Detection(https://arxiv.org/pdf/2004.10934.pdf)
+2. Keyword Spotting
+3. Embedding System
+  - Alpha-Bot()
+5. 
 
 
 ## License
