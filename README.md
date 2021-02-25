@@ -11,20 +11,23 @@
 <h4 align="center">당신의 쇼핑 생활을 upgrade해 줄 <a href="https://www.notion.so/Autonomous-Driving-Trolley-MEME-01fdd602990b4baa9b603d419a1479bb" target="_blank">MEME</a>.</h4>
 
 <p align="center">
-  <a href="#prototype">Prototype</a> •
-  <a href="#key-features">Key Features</a> •
-   <a href="#system-architecture">System Architecture</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#blogs">Contributors & Blogs</a> •
-  <a href="#references">References</a> •
-  <a href="#license">License</a> •
+  <a href="## ✨ Project Overview">Project Overview</a> •
+  <a href="## 🛎️ How To Use">How To Use</a> •
+  <a href="## 👥 Contributors & Blogs">Contributors & Blogs</a> •
+  <a href="## 🔭 References">References</a> •
+  <a href="## 🏆 Awards">Awards</a> •
+  <a href="## License">License</a> 
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/IFA_xfMm73E">Demo</a> •
   <a href="https://bit.ly/3lN3iEF">Notion</a> •
   <a href="https://github.com/MEME-Phoenix">GitHub</a>
 </p>
 
-## ✨ Prototype
+## ✨ Project Overview
 
-## ‼️ Key Features
+### ‼️ Key Features
 
 1. Object Tracking System with YOLOv5 & DeepSORT
 2. Keyword Spotting: RNN model on word "미미야"
@@ -32,7 +35,7 @@
 4. Emergency Detection with ultrasonic Sensor
 5. Embedding System
 
-## ⚒️ System Architecture
+### ⚒️ System Architecture
 
 <p align="center" >
 <img src="./system_architecture_eng.png" alt="Markdownify" width="800" >
@@ -40,14 +43,16 @@
 
 ## 🛎️ How To Use
 
+Our project is based on Ubuntu 18.04.
+
+- Prerequisites
+  To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
+
 ### 1. Object Tracking System with YOLOv5 & DeepSORT
 
 - Requirements
   Python 3.8 or later with all requirements.txt dependencies installed, including torch>=1.7. To install run:
   `pip install -U -r requirements.txt`
-
-- How to Use
-  To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
@@ -60,6 +65,20 @@ $ python3 track.py
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
 ### 2. Keyword Spotting: RNN model on word "미미야"
+
+Jupyter Notebook, Python versions are all set!
+
+```bash
+# Clone this repository
+$ git clone https://github.com/MEME-Phoenix/MEME.git
+
+# Go to file
+$ cd keyword_spotting
+
+# Run file
+$ python3 train.py      #want to train model
+$ python3 real_time.py  #use real time model
+```
 
 ## 👥 Contributors & Blogs
 
