@@ -22,9 +22,9 @@
   <a href="https://github.com/MEME-Phoenix">GitHub</a>
 </p>
 
-## Prototype
+## ✨ Prototype
 
-## Key Features
+## ‼️ Key Features
 
 1. Object Tracking System with YOLOv5 & DeepSORT
 2. Keyword Spotting: RNN model on word "미미야"
@@ -32,13 +32,13 @@
 4. Emergency Detection with ultrasonic Sensor
 5. Embedding System
 
-## System Architecture
+## ⚒️ System Architecture
 
 <p align="center" >
 <img src="./system_architecture_eng.png" alt="Markdownify" width="800" >
 </p>
 
-## How To Use
+## 🛎️ How To Use
 
 ### 1. Object Tracking System with YOLOv5 & DeepSORT
 
@@ -61,7 +61,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ### 2. Keyword Spotting: RNN model on word "미미야"
 
-## Contributors & Blogs
+## 👥 Contributors & Blogs
 
 - 한지수 [@JisuHann](https://github.com/JisuHann)
   - 스타트 학기
@@ -81,7 +81,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
     - [[IT/KR/Project] Hardware: Alphabot2-pi](https://blog.naver.com/cwkim0314/222167401417)
   - 그로쓰 학기
 
-## References
+## 🔭 References
 
 1. Object Tracking
    - Object Tracking(https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
@@ -94,7 +94,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 5.
 
-## Awards
+## 🏆 Awards
 
 - 2020 캡스톤경진대회 창업아이디어 부문 우수상
 
