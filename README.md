@@ -11,19 +11,22 @@
 <h4 align="center">당신의 쇼핑 생활을 upgrade해 줄 <a href="https://www.notion.so/Autonomous-Driving-Trolley-MEME-01fdd602990b4baa9b603d419a1479bb" target="_blank">MEME</a>.</h4>
 
 <p align="center">
-  <a href="## ✨ Project Overview">Project Overview</a> •
-  <a href="## 🛎️ How To Use">How To Use</a> •
-  <a href="## 👥 Contributors & Blogs">Contributors & Blogs</a> •
-  <a href="## 🔭 References">References</a> •
-  <a href="## 🏆 Awards">Aq</a> •
-  <a href="#license">License</a> 
+  <a href="#overview">Project Overview</a> •
+  <a href="#use">How To Use</a> •
+  <a href="#who">Contributors & Blogs</a> •
+  <a href="#ref">References</a> •
+  <a href="#sang">Aq</a> •
+  <a href="#lics">License</a> 
 </p>
 
 <p align="center">
   <a href="https://youtu.be/IFA_xfMm73E">Demo</a> •
+  <a href="https://drive.google.com/file/d/1sCxK6VSaGHfekCug8bh8UokbR4JPQqiN/view?usp=sharing">Paper</a> •
+  <a href="">Poster</a> •
   <a href="https://bit.ly/3lN3iEF">Notion</a> •
   <a href="https://github.com/MEME-Phoenix">GitHub</a>
 </p>
+<div id = "overview">
 
 ## ✨ Project Overview
 
@@ -40,6 +43,9 @@
 <p align="center" >
 <img src="./system_architecture_eng.png" alt="Markdownify" width="800" >
 </p>
+</div>
+
+<div id = "use">
 
 ## 🛎️ How To Use
 
@@ -79,6 +85,9 @@ $ cd keyword_spotting
 $ python3 train.py      #want to train model
 $ python3 real_time.py  #use real time model
 ```
+</div>
+
+<div id = "who">
 
 ## 👥 Contributors & Blogs
 
@@ -99,6 +108,9 @@ $ python3 real_time.py  #use real time model
     - [[IT/KR] Object Detection - EfficientDet](https://blog.naver.com/cwkim0314/222156584109)
     - [[IT/KR/Project] Hardware: Alphabot2-pi](https://blog.naver.com/cwkim0314/222167401417)
   - 그로쓰 학기
+</div>
+
+<div id = "ref">
 
 ## 🔭 References
 
@@ -109,14 +121,20 @@ $ python3 real_time.py  #use real time model
 2. Keyword Spotting
 3. Embedding System
 
-- Alpha-Bot()
+</div>
 
-5.
+<div id = "sang">
 
-## 🏆 Awards
-
+## 🏆 Awards & Patents
+- 2021 특허 출원 중 (P2021-0069KR)
+- 2021 한국정보처리학회 논문 게재
 - 2020 캡스톤경진대회 창업아이디어 부문 우수상
+
+</div>
+
+<div id = "lic">
 
 ## License
 
 Copyright (c) 2021 MEME-Phoenix See the file license.txt for copying permission. LICENSE를 참고하세요.
+</div>
