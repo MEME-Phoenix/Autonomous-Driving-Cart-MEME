@@ -15,7 +15,7 @@
   <a href="#use">How To Use</a> •
   <a href="#who">Contributors & Blogs</a> •
   <a href="#ref">References</a> •
-  <a href="#sang">Aq</a> •
+  <a href="#sang">Awards & Patents</a> •
   <a href="#lics">License</a> 
 </p>
 
