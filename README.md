@@ -96,6 +96,7 @@ $ python3 real_time.py  #use real time model
     - [[졸업프로젝트 개요, 1탄 RNN] 딥러닝을 이용한 자율주행카트](https://jisuhan.tistory.com/entry/졸업프로젝트딥러닝을-이용한-자율주행카트)
     - [[졸업프로젝트 2탄, CNN] ResNet50 톺아보기: 구조와 코드 분석](https://jisuhan.tistory.com/entry/CNN-ResNet50-톺아보기-구조와-코드-분석)
     - [[졸업프로젝트 3탄, HW] turtlebot3로 SLAM, Navigation 구현(2020 Summer)](https://jisuhan.tistory.com/entry/turtlebot3로-SLAM-Navigation-구현하기)
+    - [[졸업프로젝트 4탄, 알고리즘 학습] AWS EC2로 딥러닝 모델 학습하기](https://jisuhan.tistory.com/entry/졸업프로젝트-4탄-알고리즘-연결-알고리즘-완성하기)
   - 그로쓰 학기
 - 박지윤 [@jiyoonpark0207](https://github.com/jiyoonpark0207)
   - 스타트 학기
