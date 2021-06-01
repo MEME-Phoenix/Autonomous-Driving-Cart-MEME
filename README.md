@@ -100,6 +100,7 @@ $ python3 real_time.py  #use real time model
 - 박지윤 [@jiyoonpark0207](https://github.com/jiyoonpark0207)
     - [[1탄] Yolo v3 를 이용한 인물 추적 프로젝트](https://yumissfortune.tistory.com/4)
     - [[2탄] Yolo v3 를 이용한 인물 추적 프로젝트](https://yumissfortune.tistory.com/5)
+    - [[초보탈출] ROS 를 이용한 다양한 실습](https://yumissfortune.tistory.com/17)
 - 김채원 [@cwkim0314](https://github.com/cwkim0314)
     - [[IT/KR/Project] 자율 주행 카트를 만들어보자](https://blog.naver.com/cwkim0314/222156573981)
     - [[IT/KR] Object Detection - EfficientDet](https://blog.naver.com/cwkim0314/222156584109)
