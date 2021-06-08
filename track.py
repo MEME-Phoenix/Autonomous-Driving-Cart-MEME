@@ -296,6 +296,9 @@ def draw_boxes_after_yes(img, bbox, identities=None, offset=(0,0)):
             d = pow(pow(int(width/2)-int((x1 + x2) / 2),2)+pow(int(height/10*9)- int((y1 + y2) / 2),2),1/2)
             line_x = int(width/2)+(int((x1 + x2) / 2)-int(width/2))*300/d
             line_y = int(height/10*9)+ (int((y1 + y2) / 2) - int(height/10*9)) * 300 / d
+            # ros integration 시 주석 처리 풀고 실행시킬 것
+            # from ros_integration import deepsort_ros
+            # deepsort_ros.deepsort_result_to_ros(linex, liney)
             cv2.arrowedLine(img, (int(width/2), int(height/10*9)), (int(line_x), int(line_y)), (0, 0, 255), 10, 8, 0, 0.1)
         else:
             cv2.putText(img, label, (x1, y1 + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 2, (255, 255, 255), 2)
