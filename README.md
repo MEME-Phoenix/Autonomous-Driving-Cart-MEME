@@ -47,44 +47,65 @@
 
 <div id = "use">
 
-## 🛎️ How To Use
+## 🛎️ Quick Start
 
-Our project is based on Ubuntu 18.04.
+본 시스템은 Ubuntu 18.04, ROS Melodic 환경에서 작동됩니다. 다음과 같은 라이브러리 설치가 필요합니다. 
 
-- Prerequisites
-  To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
+- Python 3버전 이상
+- numpy
+- scipy
+- opencv-python
+- sklearn
+- torch ≥ 1.7
+- torchvision ≥ 0.1
+- pillow
+- vizer
+- edict
 
-### 1. Object Tracking System with YOLOv5 & DeepSORT
+---
 
-- Requirements
-  Python 3.8 or later with all requirements.txt dependencies installed, including torch>=1.7. To install run:
-  `pip install -U -r requirements.txt`
-
-```bash
-# Clone this repository
-$ git clone https://github.com/MEME-Phoenix/MEME.git
-
-# Just run the file
-$ python3 track.py
-```
-
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-### 2. Keyword Spotting: RNN model on word "미미야"
-
-Jupyter Notebook, Python versions are all set!
+1. Clone this repository & install requirements
 
 ```bash
-# Clone this repository
 $ git clone https://github.com/MEME-Phoenix/MEME.git
-
-# Go to file
-$ cd keyword_spotting
-
-# Run file
-$ python3 train.py      #want to train model
-$ python3 real_time.py  #use real time model
+$ pip install -U -r requirements.txt #위 requirements 설치
 ```
+
+2. Download YOLOv3 parameter
+
+```bash
+$ cd detector/YOLOv3/weight/
+$ wget https://pjreddie.com/media/files/yolov3.weights
+$ wget https://pjreddie.com/media/files/yolov3-tiny.weights
+$ cd ../../../
+```
+
+3. Download DeepSORT parameters ckpt.t7
+
+```bash
+$ cd deep_sort/deep/checkpoint
+# download ckpt.t7 from
+https://drive.google.com/drive/folders/1xhG0kRH1EX5B9_Iz8gQJb7UNnn_riXi6 to this folder
+$ cd ../../../
+```
+
+4. Compile nms module
+
+```bash
+cd detector/YOLOv3/nms
+sh build.sh
+cd ../../..
+```
+
+5. Rum Demo
+
+```bash
+$ usage: python3 train.py VIDEO_PATH
+                          [--source 0] #실시간
+                          [--source [mp4 file name]] #영상 첨부시
+```
+
+Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use node from the command prompt.
 </div>
 
 <div id = "who">
