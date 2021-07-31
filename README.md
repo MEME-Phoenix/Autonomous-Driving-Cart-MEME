@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/2h9hTUc2EFo">Demo</a> •
+  <a href="https://youtu.be/U72QXuIItQo">Presentation Video</a> •
   <a href="https://drive.google.com/file/d/1sCxK6VSaGHfekCug8bh8UokbR4JPQqiN/view?usp=sharing">Paper</a> •
   <a href="https://drive.google.com/file/d/1EO5TITTPSDBDCRN48HDSJHg3zqUbV14D/view?usp=sharing">Poster</a> •
   <a href="https://bit.ly/3lN3iEF">Notion</a> •
