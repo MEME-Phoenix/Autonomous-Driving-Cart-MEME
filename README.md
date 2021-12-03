@@ -148,7 +148,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 - 2021 한국정보처리학회 논문 게재
 - 2020 캡스톤경진대회 창업아이디어 부문 우수상
 - 2021 캡스톤디자인프로젝트 포스터세션 최우수상
-
+- 2021 SW인재페스티벌 이화여자대학교 대표로 참가, 42팀 중 인기상 수상
 </div>
 
 <div id = "lic">
